@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: space-theme
+description: "A modern, minimal space theme built for creating blazing-fast static websites using Jekyll"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
