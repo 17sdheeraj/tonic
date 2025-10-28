@@ -1,10 +1,22 @@
-# Tonic Starter
+# Space Theme (Jekyll)
 
-A sample [Jekyll](https://jekyllrb.com) theme designed to be a starting point for all [Tonic](https://github.com/hackclub/tonic) submissions.
+## What this is 🙏
+- A basic "space theme" with:
+  - Layouts in `_layouts/` (see `default.html`)
+  - Includes in `_includes/`
+  - Styles in `_sass/` and `assets/`
+  - A sample homepage in `index.md`
 
-This template is intentionally left incomplete; users should play through Tonic to learn how to make a full-featured theme.
+## Prerequisites (what all you need)
+- Ruby and Bundler
+- Jekyll (`gem install jekyll bundler`)
 
-# Usage
-1. At the top of this page, select **Use this template** &gt; **Create a new repository** to clone the template to your account.
-2. Create a codespace from the created repository (for beginners) or use `git clone` (for advanced users) to start pushing commits.
-3. Run `gem install jekyll`, then `jekyll serve` to see the template in action.
+## Customization (what and where to change stuff)
+- Edit `_config.yml` for site metadata.
+- Update `_layouts/default.html` and files in `_includes/`.
+- Add or change styles in `_sass/` and `assets/`.
+- Replace content in `index.md`.
+
+## Tonic :)))
+- Made for [Tonic submission](https://tonic.hackclub.com)
+- Main repo: https://github.com/hackclub/tonic
