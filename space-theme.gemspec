@@ -22,8 +22,8 @@
      f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|README\.md|_config\.yml|404\.md|index\.md|Gemfile)!i)
    }
 
-   spec.add_runtime_dependency "jekyll", ">= 3.9.0"
-   spec.add_development_dependency "bundler"
+  spec.required_ruby_version = ">= 3.0"
+
+  spec.add_runtime_dependency "jekyll", "~> 4.3"
+  spec.add_development_dependency "bundler", "~> 2.4"
  end
-
-
